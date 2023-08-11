@@ -4,6 +4,7 @@ package com.gasaiyuno.entity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.gasaiyuno.enums.DateTimePatternEnum;
 import com.gasaiyuno.utils.DateUtil;
+import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
@@ -13,6 +14,7 @@ import java.util.Date;
 /**
  * 文件信息
  */
+@Data
 public class FileInfo implements Serializable {
 
 
