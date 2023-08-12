@@ -80,6 +80,10 @@ public interface FileInfoService {
      */
     void recoverFileBatch(String userId, String fileIds);
 
+    /**
+     * 回收站批量删除
+     * @param adminOp  是否管理员删除
+     */
     void delFileBatch(String userId, String fileIds, Boolean adminOp);
 
     void checkRootFilePid(String rootFilePid, String userId, String fileId);
